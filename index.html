@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO — injected from company.config.js -->
+  <title id="js-seo-title">Loading…</title>
+  <meta name="description" id="js-seo-desc" content="" />
+  <meta name="robots" content="index, follow" />
+  <link rel="icon" type="image/png" id="js-favicon" href="" />
+
+  <!-- Open Graph -->
+  <meta property="og:title"       id="js-og-title"   content="" />
+  <meta property="og:description" id="js-og-desc"    content="" />
+  <meta property="og:type"        content="website" />
+
+  <!-- Google Fonts: Cormorant Garamond + Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- RemixIcon -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!-- GLightbox CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+
+  <!-- Template CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- ══════════════════════════════════════════════════════════
+       PRELOADER
+  ════════════════════════════════════════════════════════════ -->
+  <div id="preloader" aria-hidden="true">
+    <div class="pre__bar-wrap">
+      <div class="pre__bar"></div>
+    </div>
+    <div class="pre__count">0%</div>
+    <div class="pre__wordmark js-brand-name">Loading</div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════════
+       FILM GRAIN OVERLAY
+  ════════════════════════════════════════════════════════════ -->
+  <div class="film-grain" aria-hidden="true">
+    <svg xmlns="http://www.w3.org/2000/svg" width="300" height="300">
+      <filter id="grain">
+        <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/>
+        <feColorMatrix type="saturate" values="0"/>
+      </filter>
+      <rect width="300" height="300" filter="url(#grain)" opacity="1"/>
+    </svg>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════════
+       CUSTOM CURSOR (desktop only)
+  ════════════════════════════════════════════════════════════ -->
+  <div class="cursor__dot"  aria-hidden="true"></div>
+  <div class="cursor__ring" aria-hidden="true"></div>
+
+  <!-- ══════════════════════════════════════════════════════════
+       HEADER
+  ════════════════════════════════════════════════════════════ -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+
+      <a href="#" class="header__logo" aria-label="Go to homepage">
+        <span class="header__logo-text js-brand-name">Brand</span>
+      </a>
+
+      <nav class="header__nav" aria-label="Main navigation">
+        <ul class="header__nav-list">
+          <li><a href="#about"    class="header__nav-link">About</a></li>
+          <li><a href="#services" class="header__nav-link">Services</a></li>
+          <li><a href="#projects" class="header__nav-link">Projects</a></li>
+          <li><a href="#gallery"  class="header__nav-link">Gallery</a></li>
+          <li><a href="#contact"  class="header__nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a href="#" class="btn btn--accent header__cta magnetic js-header-cta">
+        <i class="ri-whatsapp-line"></i> WhatsApp Us
+      </a>
+
+      <button class="header__burger" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+    </div>
+  </header>
+
+  <!-- ══════════════════════════════════════════════════════════
+       MOBILE NAV
+  ════════════════════════════════════════════════════════════ -->
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" aria-hidden="true">
+    <button class="mobile-nav__close" aria-label="Close navigation menu">
+      <i class="ri-close-line"></i>
+    </button>
+    <ul class="mobile-nav__list">
+      <li><a href="#about"    class="mobile-nav__link" data-num="01">About</a></li>
+      <li><a href="#services" class="mobile-nav__link" data-num="02">Services</a></li>
+      <li><a href="#projects" class="mobile-nav__link" data-num="03">Projects</a></li>
+      <li><a href="#gallery"  class="mobile-nav__link" data-num="04">Gallery</a></li>
+      <li><a href="#contact"  class="mobile-nav__link" data-num="05">Contact</a></li>
+    </ul>
+    <div class="mobile-nav__footer">
+      <a href="#" class="btn btn--accent mobile-nav__wa js-wa-link">
+        <i class="ri-whatsapp-line"></i> Chat on WhatsApp
+      </a>
+    </div>
+  </nav>
+  <div class="mobile-nav__overlay" aria-hidden="true"></div>
+
+  <!-- ══════════════════════════════════════════════════════════
+       MAIN CONTENT
+  ════════════════════════════════════════════════════════════ -->
+  <main id="main-content">
+
+    <!-- ── HERO ──────────────────────────────────────────────── -->
+    <section class="hero" id="hero" aria-label="Hero section">
+
+      <!-- Background media -->
+      <div class="hero__media">
+        <img  class="hero__bg-img"   src="" alt="" aria-hidden="true"
+              onerror="this.style.display='none'" />
+        <video class="hero__bg-video" autoplay muted loop playsinline
+               aria-hidden="true" style="display:none;"></video>
+        <div class="hero__overlay"></div>
+      </div>
+
+      <!-- Marquee ticker -->
+      <div class="hero__ticker" aria-hidden="true">
+        <div class="hero__ticker-track js-ticker-track"></div>
+      </div>
+
+      <!-- Content -->
+      <div class="container hero__content">
+        <p class="hero__eyeline js-brand-tagline"></p>
+        <h1 class="hero__title">
+          <span class="hero__title-line js-hero-headline"></span>
+          <em   class="hero__title-em   js-hero-em"></em>
+        </h1>
+        <p class="hero__sub js-hero-sub"></p>
+        <div class="hero__actions">
+          <a href="#" class="btn btn--accent btn--lg magnetic js-hero-cta-primary" target="_blank" rel="noopener">
+            <i class="ri-whatsapp-line"></i>
+            <span class="js-hero-cta-primary-label">WhatsApp Us Now</span>
+          </a>
+          <a href="#projects" class="btn btn--ghost-white btn--lg magnetic js-hero-cta-secondary">
+            <span class="js-hero-cta-secondary-label">View Our Projects</span>
+            <i class="ri-arrow-right-line"></i>
+          </a>
+        </div>
+        <div class="hero__badges js-hero-badges"></div>
+      </div>
+
+      <!-- Scroll indicator -->
+      <a href="#about" class="hero__scroll-hint" aria-label="Scroll to about section">
+        <span class="hero__scroll-line"></span>
+        <span class="hero__scroll-label">Scroll</span>
+      </a>
+
+    </section>
+
+    <!-- ── ABOUT ──────────────────────────────────────────────── -->
+    <section class="section about" id="about" aria-label="About section">
+      <div class="container about__grid">
+
+        <div class="about__visual" data-reveal="left">
+          <div class="about__img-wrap">
+            <img class="about__img js-about-img" src="" alt="" loading="lazy"
+                 onerror="this.parentElement.classList.add('about__img-wrap--placeholder')" />
+          </div>
+          <div class="about__director-card js-director-card"></div>
+        </div>
+
+        <div class="about__body" data-reveal="right">
+          <span class="section__label">Who We Are</span>
+          <h2 class="section__heading js-about-heading"></h2>
+          <div class="about__text js-about-text"></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── SERVICES ───────────────────────────────────────────── -->
+    <section class="section services section--dark" id="services" aria-label="Services section">
+      <div class="container">
+        <div class="section__intro" data-reveal="up">
+          <span class="section__label">What We Do</span>
+          <h2 class="section__heading">Our Services</h2>
+        </div>
+        <div class="services__grid js-services-grid"></div>
+      </div>
+    </section>
+
+    <!-- ── STATS ─────────────────────────────────────────────── -->
+    <section class="stats" id="stats" aria-label="Key statistics">
+      <div class="container stats__grid js-stats-grid"></div>
+    </section>
+
+    <!-- ── PROJECTS ──────────────────────────────────────────── -->
+    <section class="section projects" id="projects" aria-label="Projects section">
+      <div class="container">
+        <div class="section__intro" data-reveal="up">
+          <span class="section__label">Our Work</span>
+          <h2 class="section__heading">Project &amp; Tender Highlights</h2>
+        </div>
+        <div class="projects__grid js-projects-grid"></div>
+      </div>
+    </section>
+
+    <!-- ── WHY US ─────────────────────────────────────────────── -->
+    <section class="section why-us section--dark" id="why-us" aria-label="Why choose us section">
+      <div class="container">
+        <div class="section__intro" data-reveal="up">
+          <span class="section__label">Why Choose Us</span>
+          <h2 class="section__heading js-why-heading">The Difference</h2>
+        </div>
+        <div class="why-us__grid js-why-grid"></div>
+      </div>
+    </section>
+
+    <!-- ── GALLERY ────────────────────────────────────────────── -->
+    <section class="section gallery" id="gallery" aria-label="Gallery section">
+      <div class="container">
+        <div class="section__intro" data-reveal="up">
+          <span class="section__label">Our Work in Pictures</span>
+          <h2 class="section__heading">Project Gallery</h2>
+        </div>
+        <div class="gallery__grid js-gallery-grid"></div>
+      </div>
+    </section>
+
+    <!-- ── TESTIMONIALS ───────────────────────────────────────── -->
+    <section class="section testimonials section--dark" id="testimonials" aria-label="Testimonials section">
+      <div class="container">
+        <div class="section__intro" data-reveal="up">
+          <span class="section__label">Client Feedback</span>
+          <h2 class="section__heading">What Our Clients Say</h2>
+        </div>
+        <div class="swiper testimonials__swiper">
+          <div class="swiper-wrapper js-testimonials-wrapper"></div>
+          <div class="swiper-pagination testimonials__pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CTA BANNER ─────────────────────────────────────────── -->
+    <section class="cta-banner" id="cta-banner" aria-label="Call to action">
+      <div class="container cta-banner__inner" data-reveal="up">
+        <h2 class="cta-banner__heading js-cta-heading"></h2>
+        <p  class="cta-banner__sub     js-cta-sub"></p>
+        <a  href="#" class="btn btn--white btn--lg magnetic js-cta-wa-btn"
+            target="_blank" rel="noopener">
+          <i class="ri-whatsapp-line"></i>
+          <span class="js-cta-btn-label">Start a Conversation</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ── CONTACT ────────────────────────────────────────────── -->
+    <section class="section contact" id="contact" aria-label="Contact section">
+      <div class="container contact__grid">
+
+        <div class="contact__info" data-reveal="left">
+          <span class="section__label">Get In Touch</span>
+          <h2 class="section__heading">Let's Start a Project</h2>
+          <ul class="contact__list js-contact-list" aria-label="Contact details"></ul>
+          <div class="contact__social js-contact-social" aria-label="Social media links"></div>
+        </div>
+
+        <div class="contact__form-wrap" data-reveal="right">
+          <form class="contact__form" id="contact-form" novalidate aria-label="Send us a message">
+            <div class="form__row">
+              <div class="form__group">
+                <label for="f-name">Full Name <span aria-hidden="true">*</span></label>
+                <input type="text"  id="f-name"  name="name"    placeholder="Your Name"         required />
+              </div>
+              <div class="form__group">
+                <label for="f-email">Email Address <span aria-hidden="true">*</span></label>
+                <input type="email" id="f-email" name="email"   placeholder="your@email.com"    required />
+              </div>
+            </div>
+            <div class="form__group">
+              <label for="f-phone">Phone / WhatsApp Number</label>
+              <input type="tel" id="f-phone" name="phone" placeholder="+255 7XX XXX XXX" />
+            </div>
+            <div class="form__group">
+              <label for="f-msg">Message <span aria-hidden="true">*</span></label>
+              <textarea id="f-msg" name="message" rows="5"
+                        placeholder="Tell us about your project or inquiry…" required></textarea>
+            </div>
+            <button type="submit" class="btn btn--accent btn--block magnetic">
+              <i class="ri-send-plane-line"></i> Send Message
+            </button>
+            <p class="form__note">
+              <i class="ri-whatsapp-line"></i>
+              Prefer to message directly?
+              <a href="#" class="js-wa-link" target="_blank" rel="noopener">WhatsApp us</a>
+            </p>
+          </form>
+        </div>
+
+        <div class="contact__map js-contact-map"></div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ══════════════════════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════════════════════════ -->
+  <footer class="footer section--dark" aria-label="Site footer">
+    <div class="container footer__grid">
+
+      <div class="footer__brand">
+        <a href="#" class="footer__logo-link" aria-label="Go to top">
+          <span class="footer__logo js-brand-name"></span>
+        </a>
+        <p class="footer__tagline js-brand-tagline"></p>
+        <div class="footer__social js-footer-social" aria-label="Social links"></div>
+      </div>
+
+      <div class="footer__col">
+        <h4 class="footer__col-heading">Navigation</h4>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col js-footer-contact" aria-label="Contact information"></div>
+
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p class="js-footer-copy"></p>
+        <p>
+          Website by
+          <a href="https://thisuncle.co.tz" target="_blank" rel="noopener">
+            ThisUncle Technologies
+          </a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ══════════════════════════════════════════════════════════
+       STICKY WHATSAPP BUTTON
+  ════════════════════════════════════════════════════════════ -->
+  <a href="#" class="wa-fab js-wa-link" aria-label="Chat on WhatsApp"
+     target="_blank" rel="noopener">
+    <i class="ri-whatsapp-line" aria-hidden="true"></i>
+    <span class="wa-fab__pulse" aria-hidden="true"></span>
+  </a>
+
+  <!-- ══════════════════════════════════════════════════════════
+       BACK TO TOP
+  ════════════════════════════════════════════════════════════ -->
+  <button class="back-to-top" id="back-to-top" aria-label="Scroll back to top">
+    <i class="ri-arrow-up-line" aria-hidden="true"></i>
+  </button>
+
+  <!-- ══════════════════════════════════════════════════════════
+       SCRIPTS — config must load before main.js
+  ════════════════════════════════════════════════════════════ -->
+  <script src="data/company.config.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/splitting@1.0.6/dist/splitting.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+
+  <script src="js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,125 @@
+// ============================================================
+//  TUT MASTER TEMPLATE — LOGISTICS / SUPPLY COMPANY CONFIG
+//  Sample: Simba Logistics & Supply Co. Ltd
+//  To use: rename this file to company.config.js
+// ============================================================
+
+const COMPANY = {
+
+  meta: {
+    seoTitle:       'Simba Logistics & Supply Co. | Freight, Clearance & Procurement — Tanzania',
+    seoDescription: 'Tanzania\'s trusted logistics and supply partner. Freight forwarding, customs clearance, government procurement, and door-to-door delivery across East Africa.',
+    favicon:        '',
+  },
+
+  brand: {
+    name:       'Simba Logistics',
+    tagline:    'Moving Tanzania Forward',
+    subTagline: 'Freight · Customs Clearance · Government Supply',
+    logo:       '',
+    accent:     '#1B5E8C',   // strong corporate blue
+    accentAlt:  '#2074A8',
+    bgDark:     '#060C14',
+    textLight:  '#E8F0F8',
+  },
+
+  hero: {
+    headline:    'Tanzania\'s Most Trusted',
+    headlineEm:  'Logistics Partner',
+    subheadline: 'We move goods, clear customs, and supply government institutions — on time, every time, anywhere in Tanzania and East Africa.',
+    bgImage:     'assets/images/hero.jpg',
+    bgVideo:     '',
+    ctaPrimary:  { label: 'Get a Free Quote',    type: 'whatsapp' },
+    ctaSecondary:{ label: 'Our Services',        href: '#services' },
+    badges: [
+      { value: '10+',   label: 'Years Operating'          },
+      { value: '5,000+',label: 'Consignments Delivered'   },
+      { value: 'TBS',   label: 'TBS & TRA Registered'     },
+    ],
+  },
+
+  about: {
+    heading: 'Reliability You Can\nCount On',
+    body: [
+      'Simba Logistics & Supply Co. Ltd is a Dar es Salaam-based logistics, freight, and supply company with a decade of experience moving goods across Tanzania and the East African region.',
+      'From sea freight at Dar Port to last-mile delivery in rural districts, we offer complete supply chain solutions for private businesses, NGOs, and government institutions.',
+    ],
+    image: 'assets/images/about.jpg',
+    director: {
+      name:  'Mr. Juma Simba',
+      title: 'Managing Director',
+      photo: 'assets/images/director.jpg',
+      quote: 'We don\'t just deliver goods. We deliver confidence to every client who trusts us with their supply chain.',
+    },
+  },
+
+  services: [
+    { icon: 'ri-ship-2-line',        title: 'Sea Freight',                body: 'Full container (FCL) and shared container (LCL) shipments from any global port to Dar es Salaam, Tanga, and Mtwara.' },
+    { icon: 'ri-truck-line',         title: 'Road Freight & Haulage',     body: 'Heavy-duty trucking for bulk goods, construction materials, and general cargo across Tanzania and East Africa.' },
+    { icon: 'ri-file-text-line',     title: 'Customs Clearance',          body: 'Fast, compliant TRA customs clearance at all major Tanzanian ports and border crossing points.' },
+    { icon: 'ri-store-2-line',       title: 'Government Supply',          body: 'Tender-winning supply of office furniture, electronics, stationery, PPE, and general consumables to ministries and institutions.' },
+    { icon: 'ri-archive-line',       title: 'Warehousing & Storage',      body: 'Secure dry and temperature-controlled warehousing in Dar es Salaam with inventory management systems.' },
+    { icon: 'ri-route-line',         title: 'Distribution & Last Mile',   body: 'Nationwide distribution reaching all 26 regions with dedicated vehicles and local agents.' },
+  ],
+
+  projects: [
+    { title: 'Ministry of Health Medical Supplies', category: 'Government Supply',   client: 'Ministry of Health', value: 'TZS 1.6 Billion', year: '2024', image: 'assets/images/project-1.jpg', tag: 'Completed' },
+    { title: 'TANESCO Generator Equipment Import',  category: 'Freight Forwarding', client: 'TANESCO',            value: 'USD 840,000',     year: '2023', image: 'assets/images/project-2.jpg', tag: 'Completed' },
+    { title: 'UNICEF Tanzania PPE Distribution',    category: 'Humanitarian Logistics', client: 'UNICEF Tanzania', value: 'TZS 720 Million', year: '2023', image: 'assets/images/project-3.jpg', tag: 'Completed' },
+    { title: 'Regional Schools Furniture Supply',   category: 'Government Procurement', client: 'Ministry of Education', value: 'TZS 480 Million', year: '2024', image: 'assets/images/project-4.jpg', tag: 'Ongoing' },
+  ],
+
+  stats: [
+    { value: 10,    suffix: '+',   label: 'Years in Business'         },
+    { value: 5000,  suffix: '+',   label: 'Consignments Delivered'    },
+    { value: 26,    suffix: '',    label: 'Regions Covered'           },
+    { value: 98,    suffix: '%',   label: 'On-Time Delivery Rate'     },
+  ],
+
+  whyUs: [
+    { icon: 'ri-shield-check-line', title: 'TRA & TBS Licensed',     body: 'Fully licensed clearing and forwarding agent with all required government registrations.' },
+    { icon: 'ri-timer-line',        title: 'Fast Clearance',          body: 'Most customs clearances processed within 24–48 hours of vessel arrival.' },
+    { icon: 'ri-global-line',       title: 'Global Network',          body: 'Partnerships with freight agents in over 40 countries for seamless worldwide shipping.' },
+    { icon: 'ri-team-line',         title: 'Dedicated Account Team',  body: 'Each client gets a dedicated account officer who manages all shipments end-to-end.' },
+    { icon: 'ri-lock-line',         title: 'Cargo Insurance',         body: 'All consignments covered with comprehensive marine and inland transit insurance.' },
+    { icon: 'ri-customer-service-line', title: '24/7 Support',        body: 'Our operations team is reachable around the clock for urgent clearance and delivery.' },
+  ],
+
+  gallery: [
+    { image: 'assets/images/gallery-1.jpg', caption: 'Container offloading at Dar Port'          },
+    { image: 'assets/images/gallery-2.jpg', caption: 'Fleet of delivery trucks'                   },
+    { image: 'assets/images/gallery-3.jpg', caption: 'Warehouse facility — Dar es Salaam'         },
+    { image: 'assets/images/gallery-4.jpg', caption: 'Medical supplies delivery to district hospital' },
+    { image: 'assets/images/gallery-5.jpg', caption: 'Cross-border cargo at Namanga'              },
+    { image: 'assets/images/gallery-6.jpg', caption: 'Team customs clearance briefing'            },
+  ],
+
+  testimonials: [
+    { quote: 'Simba handled our medical supplies import and cleared customs in under 36 hours. Exceptional service for a time-critical shipment.', name: 'Dr. Samuel Lyimo',  title: 'Procurement Officer, Ministry of Health', avatar: '' },
+    { quote: 'Three years of regular shipments and not a single delay we couldn\'t explain. Simba Logistics is our permanent freight partner.', name: 'Priya Patel',         title: 'Operations Manager, Patel Industries Tanzania', avatar: '' },
+    { quote: 'Their team\'s knowledge of TRA procedures saved us weeks of back-and-forth. The clearance was smooth, transparent, and fast.', name: 'James Mkangala',       title: 'Finance Director, BuildRight Ltd', avatar: '' },
+  ],
+
+  contact: {
+    phone:    '+255 713 456 789',
+    whatsapp: '255713456789',
+    email:    'info@simbalogistics.co.tz',
+    address:  'Bandari Road, Magomeni, Dar es Salaam, Tanzania',
+    mapEmbed: '',
+  },
+
+  social: {
+    facebook:  'https://facebook.com',
+    instagram: '',
+    linkedin:  'https://linkedin.com',
+    twitter:   '',
+    youtube:   '',
+  },
+
+  cta: {
+    heading:     'Need a Logistics Partner You Can Trust?',
+    subheading:  'WhatsApp us for a free freight or supply quote within 1 hour.',
+    buttonLabel: 'Get a Free Quote',
+  },
+
+};
