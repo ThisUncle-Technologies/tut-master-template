@@ -1,0 +1,8 @@
+[build]
+  publish = "public-demo"
+  command = "node tools/deployment/prepare-netlify-demo.js"
+
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200

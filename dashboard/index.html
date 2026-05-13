@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TUT Lead Dashboard</title>
+  <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+
+  <header class="header">
+    <a href="#/leads" class="header__brand">TUT Dashboard</a>
+    <nav class="header__nav">
+      <a href="#/leads" class="header__link" id="nav-leads">Leads</a>
+      <a href="#/pilot" class="header__link" id="nav-pilot">Pilot</a>
+    </nav>
+    <div class="header__actions">
+      <button class="btn btn--ghost btn--sm" id="btn-sync" title="Sync state from leads/ and generated/configs/">Sync</button>
+    </div>
+  </header>
+
+  <main class="main" id="app">
+    <div class="loading">Loading…</div>
+  </main>
+
+  <div class="toast" id="toast"></div>
+
+  <div class="confirm-overlay" id="confirm-overlay">
+    <div class="confirm-box">
+      <p class="confirm-text" id="confirm-text"></p>
+      <div class="confirm-actions">
+        <button class="btn btn--ghost" id="confirm-cancel">Cancel</button>
+        <button class="btn btn--danger" id="confirm-ok">Confirm</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/dashboard.js"></script>
+
+</body>
+</html>
