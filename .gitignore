@@ -18,6 +18,8 @@ generated/outreach/*.json
 # ── Lead enrichment data ──────────────────────────────────────────────────────
 # Contains real company phone numbers, WhatsApp numbers, and contact research.
 leads/
+blitz_batch_input.csv
+needs-manual-review/
 
 # ── Raw ingestion data ────────────────────────────────────────────────────────
 # NeST tender data and pipeline working files. Large and frequently regenerated.
@@ -38,3 +40,6 @@ test-results.json
 
 # ── Dependencies ──────────────────────────────────────────────────────────────
 node_modules/
+
+# Local Netlify folder
+.netlify

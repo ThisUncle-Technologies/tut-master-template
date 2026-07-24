@@ -1,0 +1,206 @@
+{
+  "configVersion": "1.0.0",
+  "generatedAt": "2026-07-24T18:24:04.639Z",
+  "updatedAt": "2026-07-24T18:24:04.639Z",
+  "checksum": "5e1bfd68",
+  "status": "published",
+  "locale": "en-TZ",
+  "lockedFields": [
+    "about.director"
+  ],
+  "meta": {
+    "seoTitle": "Pioneer Builders Limited | Civil Works · Renovations · Construction — Tanzania",
+    "seoDescription": "We deliver residential, commercial, and civil construction projects across Tanzania — on schedule, within budget, and built to the highest standards.",
+    "ogImage": "assets/images/og-cover.jpg",
+    "defaultOgImage": "",
+    "canonicalUrl": "https://demo.thisuncle.co.tz/pioneer-builders-limited",
+    "favicon": ""
+  },
+  "brand": {
+    "name": "Pioneer Builders Limited",
+    "tagline": "Built to Last.",
+    "subTagline": "Civil Works · Renovations · Construction",
+    "logo": "",
+    "industry": "construction",
+    "accent": "#C9431B",
+    "accentAlt": "#E05C2A",
+    "bgDark": "#0D0500",
+    "textLight": "#F0EAE0"
+  },
+  "hero": {
+    "headline": "Quality Construction,",
+    "headlineEm": "Delivered on Time.",
+    "subheadline": "We deliver residential, commercial, and civil construction projects across Tanzania — on schedule, within budget, and built to the highest standards.",
+    "bgImage": "assets/images/hero.jpg",
+    "bgVideo": "",
+    "ctaPrimary": {
+      "label": "Get a Free Quote",
+      "type": "whatsapp"
+    },
+    "ctaSecondary": {
+      "label": "Our Services",
+      "href": "#services"
+    },
+    "badges": [
+      {
+        "value": "8+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "50+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "TBS",
+        "label": "Registered Firm"
+      }
+    ]
+  },
+  "about": {
+    "heading": "Your Reliable\nConstruction Partner",
+    "body": [
+      "We are a Tanzanian construction and civil works company with years of experience delivering residential, commercial, and infrastructure projects across the country.",
+      "Our team of qualified engineers, site supervisors, and skilled tradespeople is committed to quality workmanship, transparent communication, and on-time delivery."
+    ],
+    "image": "assets/images/about.jpg",
+    "director": null
+  },
+  "services": {
+    "visible": true,
+    "items": [
+      {
+        "icon": "ri-building-2-line",
+        "title": "Civil Works",
+        "body": "Foundation laying, structural works, and civil engineering for residential and commercial properties."
+      },
+      {
+        "icon": "ri-tools-line",
+        "title": "Renovations",
+        "body": "Full interior and exterior renovation services — from kitchens and bathrooms to full building refurbishments."
+      },
+      {
+        "icon": "ri-grid-line",
+        "title": "Tiling & Flooring",
+        "body": "Professional tiling, flooring, and finishing services using quality materials for lasting results."
+      },
+      {
+        "icon": "ri-drop-line",
+        "title": "Plumbing & Drainage",
+        "body": "Complete plumbing installation, pipe works, and drainage systems for new builds and renovations."
+      },
+      {
+        "icon": "ri-home-gear-line",
+        "title": "Roofing",
+        "body": "Roofing installation and repair using durable materials suited to the Tanzanian climate."
+      },
+      {
+        "icon": "ri-file-list-3-line",
+        "title": "Project Management",
+        "body": "End-to-end project management ensuring your construction is delivered on time and within budget."
+      }
+    ]
+  },
+  "projects": {
+    "visible": false,
+    "items": []
+  },
+  "stats": {
+    "visible": true,
+    "items": [
+      {
+        "value": 8,
+        "suffix": "+",
+        "label": "Years Experience"
+      },
+      {
+        "value": 50,
+        "suffix": "+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": 40,
+        "suffix": "+",
+        "label": "Clients Served"
+      },
+      {
+        "value": 30,
+        "suffix": "+",
+        "label": "Qualified Staff"
+      }
+    ]
+  },
+  "whyUs": {
+    "visible": true,
+    "items": [
+      {
+        "icon": "ri-shield-check-line",
+        "title": "Licensed & Registered",
+        "body": "Fully registered with all relevant authorities for construction and civil works in Tanzania."
+      },
+      {
+        "icon": "ri-medal-line",
+        "title": "Experienced Team",
+        "body": "Our engineers, supervisors, and tradespeople bring years of hands-on experience to every project."
+      },
+      {
+        "icon": "ri-stack-line",
+        "title": "Quality Materials",
+        "body": "We source from reputable suppliers to ensure every project meets the highest standards."
+      },
+      {
+        "icon": "ri-calendar-check-line",
+        "title": "On-Time Delivery",
+        "body": "We plan carefully and communicate throughout so your project is completed as agreed."
+      },
+      {
+        "icon": "ri-money-dollar-circle-line",
+        "title": "Transparent Pricing",
+        "body": "No hidden costs — we provide detailed quotations so you know exactly what you are paying for."
+      },
+      {
+        "icon": "ri-customer-service-line",
+        "title": "After-Build Support",
+        "body": "We stand behind our work and remain available after project completion for any follow-up needs."
+      }
+    ]
+  },
+  "gallery": {
+    "visible": false,
+    "items": []
+  },
+  "testimonials": {
+    "visible": false,
+    "items": []
+  },
+  "contact": {
+    "phone": "+255 715637537",
+    "whatsapp": "255715637537",
+    "email": "info@pioneerbuilders.co.tz",
+    "address": "",
+    "mapEmbed": ""
+  },
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "linkedin": "",
+    "twitter": "",
+    "youtube": ""
+  },
+  "cta": {
+    "heading": "Ready to Start Your Project?",
+    "subheading": "Contact us today for a free site visit and no-obligation quotation.",
+    "buttonLabel": "Request a Free Quote"
+  },
+  "internal": {
+    "leadId": "blitz-26",
+    "createdAt": "2026-07-24T18:24:04.639Z",
+    "updatedAt": "2026-07-24T18:24:04.639Z",
+    "generatedBy": "auto",
+    "source": "blitz-batch-csv",
+    "salesRep": "",
+    "demoVersion": "2.0.0",
+    "outreachStatus": "pending",
+    "publishedAt": "2026-07-24T18:24:04.639Z"
+  },
+  "publishedAt": "2026-07-24T18:24:04.639Z"
+}

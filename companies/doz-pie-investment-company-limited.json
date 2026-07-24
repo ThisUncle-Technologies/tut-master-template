@@ -1,0 +1,206 @@
+{
+  "configVersion": "1.0.0",
+  "generatedAt": "2026-07-24T18:24:04.636Z",
+  "updatedAt": "2026-07-24T18:24:04.637Z",
+  "checksum": "2eeb52a4",
+  "status": "published",
+  "locale": "en-TZ",
+  "lockedFields": [
+    "about.director"
+  ],
+  "meta": {
+    "seoTitle": "Doz - Pie Investment Company Limited | Investment & Corporate Services — Tanzania",
+    "seoDescription": "We are a Tanzanian investment and corporate services group committed to creating long-term value for our stakeholders across multiple sectors.",
+    "ogImage": "assets/images/og-cover.jpg",
+    "defaultOgImage": "",
+    "canonicalUrl": "https://demo.thisuncle.co.tz/doz-pie-investment-company-limited",
+    "favicon": ""
+  },
+  "brand": {
+    "name": "Doz - Pie Investment Company Limited",
+    "tagline": "Investing in Tanzania's Future.",
+    "subTagline": "Investment & Corporate Services",
+    "logo": "",
+    "industry": "corporate",
+    "accent": "#1A2A5E",
+    "accentAlt": "#253978",
+    "bgDark": "#060810",
+    "textLight": "#E8EBF5"
+  },
+  "hero": {
+    "headline": "Investing in",
+    "headlineEm": "Tanzania's Growth.",
+    "subheadline": "We are a Tanzanian investment and corporate services group committed to creating long-term value for our stakeholders across multiple sectors.",
+    "bgImage": "assets/images/hero.jpg",
+    "bgVideo": "",
+    "ctaPrimary": {
+      "label": "Get in Touch",
+      "type": "whatsapp"
+    },
+    "ctaSecondary": {
+      "label": "Our Services",
+      "href": "#services"
+    },
+    "badges": [
+      {
+        "value": "10+",
+        "label": "Years Operating"
+      },
+      {
+        "value": "5+",
+        "label": "Business Divisions"
+      },
+      {
+        "value": "TRA",
+        "label": "Registered Group"
+      }
+    ]
+  },
+  "about": {
+    "heading": "A Corporate Group Built\nfor Tanzania",
+    "body": [
+      "We are a Tanzanian corporate group with diversified interests across key sectors of the economy, committed to creating value through disciplined investment and professional management.",
+      "Our experienced leadership team combines financial expertise with deep market knowledge to identify and develop opportunities that deliver lasting returns."
+    ],
+    "image": "assets/images/about.jpg",
+    "director": null
+  },
+  "services": {
+    "visible": true,
+    "items": [
+      {
+        "icon": "ri-funds-line",
+        "title": "Investment Management",
+        "body": "Strategic investment and portfolio management across equity, fixed income, and real assets."
+      },
+      {
+        "icon": "ri-briefcase-4-line",
+        "title": "Corporate Advisory",
+        "body": "M&A advisory, corporate restructuring, and strategic planning for businesses and institutions."
+      },
+      {
+        "icon": "ri-bank-line",
+        "title": "Financial Services",
+        "body": "Financial planning, treasury management, and capital raising for corporate clients."
+      },
+      {
+        "icon": "ri-building-4-line",
+        "title": "Real Estate",
+        "body": "Commercial and residential property investment, development, and asset management."
+      },
+      {
+        "icon": "ri-global-line",
+        "title": "Trade & Commerce",
+        "body": "Import, export, and trade facilitation across East Africa and international markets."
+      },
+      {
+        "icon": "ri-organization-chart",
+        "title": "Subsidiary Management",
+        "body": "Professional management of subsidiary companies and associated business interests."
+      }
+    ]
+  },
+  "projects": {
+    "visible": false,
+    "items": []
+  },
+  "stats": {
+    "visible": true,
+    "items": [
+      {
+        "value": 10,
+        "suffix": "+",
+        "label": "Years Operating"
+      },
+      {
+        "value": 5,
+        "suffix": "+",
+        "label": "Business Divisions"
+      },
+      {
+        "value": 50,
+        "suffix": "+",
+        "label": "Institutional Partners"
+      },
+      {
+        "value": 3,
+        "suffix": "+",
+        "label": "Sectors of Operation"
+      }
+    ]
+  },
+  "whyUs": {
+    "visible": true,
+    "items": [
+      {
+        "icon": "ri-user-star-line",
+        "title": "Experienced Leadership",
+        "body": "Our executive team brings decades of combined experience in finance, operations, and strategy."
+      },
+      {
+        "icon": "ri-shield-star-line",
+        "title": "Strong Governance",
+        "body": "We operate under robust corporate governance frameworks with full regulatory compliance."
+      },
+      {
+        "icon": "ri-earth-line",
+        "title": "Regional Reach",
+        "body": "Our networks extend across East Africa, enabling cross-border investment and partnership."
+      },
+      {
+        "icon": "ri-line-chart-line",
+        "title": "Track Record",
+        "body": "A consistent history of value creation across our investment portfolio."
+      },
+      {
+        "icon": "ri-handshake-line",
+        "title": "Partnership Approach",
+        "body": "We build long-term relationships with partners and stakeholders based on trust and alignment."
+      },
+      {
+        "icon": "ri-file-shield-2-line",
+        "title": "Confidential & Discreet",
+        "body": "All mandates are handled with the highest level of professionalism and confidentiality."
+      }
+    ]
+  },
+  "gallery": {
+    "visible": false,
+    "items": []
+  },
+  "testimonials": {
+    "visible": false,
+    "items": []
+  },
+  "contact": {
+    "phone": "+255 714505627",
+    "whatsapp": "255714505627",
+    "email": "",
+    "address": "",
+    "mapEmbed": ""
+  },
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "linkedin": "",
+    "twitter": "",
+    "youtube": ""
+  },
+  "cta": {
+    "heading": "Interested in Partnering With Us?",
+    "subheading": "Reach out to explore investment or business partnership opportunities.",
+    "buttonLabel": "Get in Touch"
+  },
+  "internal": {
+    "leadId": "blitz-23",
+    "createdAt": "2026-07-24T18:24:04.636Z",
+    "updatedAt": "2026-07-24T18:24:04.637Z",
+    "generatedBy": "auto",
+    "source": "blitz-batch-csv",
+    "salesRep": "",
+    "demoVersion": "2.0.0",
+    "outreachStatus": "pending",
+    "publishedAt": "2026-07-24T18:24:04.637Z"
+  },
+  "publishedAt": "2026-07-24T18:24:04.637Z"
+}
