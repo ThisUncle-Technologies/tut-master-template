@@ -1,0 +1,206 @@
+{
+  "configVersion": "1.0.0",
+  "generatedAt": "2026-07-24T18:24:04.690Z",
+  "updatedAt": "2026-07-24T18:24:04.690Z",
+  "checksum": "dcefd3c",
+  "status": "published",
+  "locale": "en-TZ",
+  "lockedFields": [
+    "about.director"
+  ],
+  "meta": {
+    "seoTitle": "Archer Pre & Primary School | Education & Training Services — Tanzania",
+    "seoDescription": "We provide quality education and training that equips students and professionals with the knowledge and skills to succeed.",
+    "ogImage": "assets/images/og-cover.jpg",
+    "defaultOgImage": "",
+    "canonicalUrl": "https://demo.thisuncle.co.tz/archer-pre-primary-school",
+    "favicon": ""
+  },
+  "brand": {
+    "name": "Archer Pre & Primary School",
+    "tagline": "Shaping Future Leaders.",
+    "subTagline": "Education & Training Services",
+    "logo": "",
+    "industry": "education",
+    "accent": "#2A3D8C",
+    "accentAlt": "#3A52B8",
+    "bgDark": "#050814",
+    "textLight": "#E8EBF8"
+  },
+  "hero": {
+    "headline": "Education That",
+    "headlineEm": "Opens Doors.",
+    "subheadline": "We provide quality education and training that equips students and professionals with the knowledge and skills to succeed.",
+    "bgImage": "assets/images/hero.jpg",
+    "bgVideo": "",
+    "ctaPrimary": {
+      "label": "Enquire Now",
+      "type": "whatsapp"
+    },
+    "ctaSecondary": {
+      "label": "Our Programmes",
+      "href": "#services"
+    },
+    "badges": [
+      {
+        "value": "6+",
+        "label": "Years Established"
+      },
+      {
+        "value": "500+",
+        "label": "Students"
+      },
+      {
+        "value": "NECTA",
+        "label": "Registered"
+      }
+    ]
+  },
+  "about": {
+    "heading": "Committed to Quality\nEducation",
+    "body": [
+      "We are a Tanzanian educational institution committed to academic excellence, character development, and practical skills for life and work.",
+      "Our qualified team of educators combines academic rigour with a supportive learning environment to bring out the best in every student."
+    ],
+    "image": "assets/images/about.jpg",
+    "director": null
+  },
+  "services": {
+    "visible": true,
+    "items": [
+      {
+        "icon": "ri-book-open-line",
+        "title": "Academic Programmes",
+        "body": "Accredited academic programmes taught by qualified staff, aligned with national standards."
+      },
+      {
+        "icon": "ri-briefcase-line",
+        "title": "Professional Training",
+        "body": "Practical skills training and professional development programmes for working adults."
+      },
+      {
+        "icon": "ri-computer-line",
+        "title": "ICT & Digital Skills",
+        "body": "Computer literacy, digital skills, and software training for students and professionals."
+      },
+      {
+        "icon": "ri-translate-2",
+        "title": "Language Programmes",
+        "body": "English and Swahili language courses for communication, business, and academic success."
+      },
+      {
+        "icon": "ri-team-line",
+        "title": "Tutoring & Support",
+        "body": "Small group and one-on-one tutoring to support students needing additional academic guidance."
+      },
+      {
+        "icon": "ri-award-line",
+        "title": "Examinations & Certification",
+        "body": "Preparation and registration for national and international examinations and certifications."
+      }
+    ]
+  },
+  "projects": {
+    "visible": false,
+    "items": []
+  },
+  "stats": {
+    "visible": true,
+    "items": [
+      {
+        "value": 6,
+        "suffix": "+",
+        "label": "Years Established"
+      },
+      {
+        "value": 500,
+        "suffix": "+",
+        "label": "Students Enrolled"
+      },
+      {
+        "value": 20,
+        "suffix": "+",
+        "label": "Qualified Educators"
+      },
+      {
+        "value": 85,
+        "suffix": "%",
+        "label": "Student Pass Rate"
+      }
+    ]
+  },
+  "whyUs": {
+    "visible": true,
+    "items": [
+      {
+        "icon": "ri-government-line",
+        "title": "Accredited Institution",
+        "body": "Registered and accredited with the relevant national education authorities."
+      },
+      {
+        "icon": "ri-user-star-line",
+        "title": "Qualified Teaching Staff",
+        "body": "All teaching staff hold recognised qualifications and undergo regular professional development."
+      },
+      {
+        "icon": "ri-book-2-line",
+        "title": "Strong Curriculum",
+        "body": "Our curriculum is aligned with national standards and enriched with practical, relevant content."
+      },
+      {
+        "icon": "ri-group-line",
+        "title": "Small Class Sizes",
+        "body": "We maintain manageable class sizes to ensure individual attention and better learning outcomes."
+      },
+      {
+        "icon": "ri-home-smile-line",
+        "title": "Safe Environment",
+        "body": "A safe, clean, and supportive environment where all students can focus on learning."
+      },
+      {
+        "icon": "ri-parent-line",
+        "title": "Parental Engagement",
+        "body": "We keep parents and guardians informed and involved in their child's educational progress."
+      }
+    ]
+  },
+  "gallery": {
+    "visible": false,
+    "items": []
+  },
+  "testimonials": {
+    "visible": false,
+    "items": []
+  },
+  "contact": {
+    "phone": "+255 748083007",
+    "whatsapp": "255748083007",
+    "email": "",
+    "address": "",
+    "mapEmbed": ""
+  },
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "linkedin": "",
+    "twitter": "",
+    "youtube": ""
+  },
+  "cta": {
+    "heading": "Invest in Your Future Today",
+    "subheading": "Contact us to learn more about enrolment and available programmes.",
+    "buttonLabel": "Enquire About Enrolment"
+  },
+  "internal": {
+    "leadId": "blitz-99",
+    "createdAt": "2026-07-24T18:24:04.690Z",
+    "updatedAt": "2026-07-24T18:24:04.690Z",
+    "generatedBy": "auto",
+    "source": "blitz-batch-csv",
+    "salesRep": "",
+    "demoVersion": "2.0.0",
+    "outreachStatus": "pending",
+    "publishedAt": "2026-07-24T18:24:04.690Z"
+  },
+  "publishedAt": "2026-07-24T18:24:04.690Z"
+}

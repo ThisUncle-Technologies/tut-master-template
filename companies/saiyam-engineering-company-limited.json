@@ -1,0 +1,206 @@
+{
+  "configVersion": "1.0.0",
+  "generatedAt": "2026-07-24T18:24:04.657Z",
+  "updatedAt": "2026-07-24T18:24:04.658Z",
+  "checksum": "dcabe6e0",
+  "status": "published",
+  "locale": "en-TZ",
+  "lockedFields": [
+    "about.director"
+  ],
+  "meta": {
+    "seoTitle": "Saiyam Engineering Company Limited | Engineering & Technical Services — Tanzania",
+    "seoDescription": "We provide professional engineering and technical services to businesses and public institutions across Tanzania.",
+    "ogImage": "assets/images/og-cover.jpg",
+    "defaultOgImage": "",
+    "canonicalUrl": "https://demo.thisuncle.co.tz/saiyam-engineering-company-limited",
+    "favicon": ""
+  },
+  "brand": {
+    "name": "Saiyam Engineering Company Limited",
+    "tagline": "Engineering Solutions.",
+    "subTagline": "Engineering & Technical Services",
+    "logo": "",
+    "industry": "engineering",
+    "accent": "#3D3D3D",
+    "accentAlt": "#5A5A5A",
+    "bgDark": "#080808",
+    "textLight": "#EBEBEB"
+  },
+  "hero": {
+    "headline": "Engineering Solutions",
+    "headlineEm": "That Work.",
+    "subheadline": "We provide professional engineering and technical services to businesses and public institutions across Tanzania.",
+    "bgImage": "assets/images/hero.jpg",
+    "bgVideo": "",
+    "ctaPrimary": {
+      "label": "Request a Consultation",
+      "type": "whatsapp"
+    },
+    "ctaSecondary": {
+      "label": "Our Services",
+      "href": "#services"
+    },
+    "badges": [
+      {
+        "value": "7+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "60+",
+        "label": "Projects"
+      },
+      {
+        "value": "ERB",
+        "label": "Registered Firm"
+      }
+    ]
+  },
+  "about": {
+    "heading": "Engineering Expertise\nYou Can Rely On",
+    "body": [
+      "We are a Tanzanian engineering and technical services firm staffed by qualified engineers and technicians across multiple disciplines.",
+      "We apply international engineering standards with deep local knowledge to deliver safe, efficient, and cost-effective solutions for our clients."
+    ],
+    "image": "assets/images/about.jpg",
+    "director": null
+  },
+  "services": {
+    "visible": true,
+    "items": [
+      {
+        "icon": "ri-flashlight-line",
+        "title": "Electrical Engineering",
+        "body": "Electrical installation, maintenance, and design for commercial and industrial properties."
+      },
+      {
+        "icon": "ri-settings-3-line",
+        "title": "Mechanical Engineering",
+        "body": "Mechanical systems design, installation, and maintenance for industrial and commercial facilities."
+      },
+      {
+        "icon": "ri-building-line",
+        "title": "Structural Engineering",
+        "body": "Structural design, assessment, and advisory for buildings and infrastructure projects."
+      },
+      {
+        "icon": "ri-computer-line",
+        "title": "ICT & Networking",
+        "body": "Network infrastructure, IT systems, and technology integration for businesses."
+      },
+      {
+        "icon": "ri-survey-line",
+        "title": "Surveying & Estimation",
+        "body": "Quantity surveying, cost estimation, and BOQ preparation for construction and engineering projects."
+      },
+      {
+        "icon": "ri-tools-line",
+        "title": "Maintenance Services",
+        "body": "Preventive and corrective maintenance programmes for electrical, mechanical, and civil assets."
+      }
+    ]
+  },
+  "projects": {
+    "visible": false,
+    "items": []
+  },
+  "stats": {
+    "visible": true,
+    "items": [
+      {
+        "value": 7,
+        "suffix": "+",
+        "label": "Years Experience"
+      },
+      {
+        "value": 60,
+        "suffix": "+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": 15,
+        "suffix": "+",
+        "label": "Qualified Engineers"
+      },
+      {
+        "value": 40,
+        "suffix": "+",
+        "label": "Clients Served"
+      }
+    ]
+  },
+  "whyUs": {
+    "visible": true,
+    "items": [
+      {
+        "icon": "ri-award-line",
+        "title": "Qualified Engineers",
+        "body": "All our engineers hold recognised professional qualifications and current registrations."
+      },
+      {
+        "icon": "ri-file-shield-2-line",
+        "title": "Code Compliant",
+        "body": "All work is designed and executed to meet applicable Tanzanian and international standards."
+      },
+      {
+        "icon": "ri-shield-check-line",
+        "title": "Health & Safety First",
+        "body": "We maintain rigorous health and safety standards on every project and work site."
+      },
+      {
+        "icon": "ri-search-eye-line",
+        "title": "Detailed Engineering",
+        "body": "We invest in thorough design and planning to prevent costly errors and rework."
+      },
+      {
+        "icon": "ri-customer-service-line",
+        "title": "Responsive Support",
+        "body": "Our technical team is available for urgent call-outs and fast-turnaround repairs."
+      },
+      {
+        "icon": "ri-money-dollar-circle-line",
+        "title": "Value Engineering",
+        "body": "We identify cost-saving opportunities without compromising quality or safety."
+      }
+    ]
+  },
+  "gallery": {
+    "visible": false,
+    "items": []
+  },
+  "testimonials": {
+    "visible": false,
+    "items": []
+  },
+  "contact": {
+    "phone": "+255 784274474",
+    "whatsapp": "255784274474",
+    "email": "adamkufakunoga@yahoo.com",
+    "address": "",
+    "mapEmbed": ""
+  },
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "linkedin": "",
+    "twitter": "",
+    "youtube": ""
+  },
+  "cta": {
+    "heading": "Have an Engineering Challenge?",
+    "subheading": "Contact us for a site assessment or technical consultation.",
+    "buttonLabel": "Request a Consultation"
+  },
+  "internal": {
+    "leadId": "blitz-49",
+    "createdAt": "2026-07-24T18:24:04.657Z",
+    "updatedAt": "2026-07-24T18:24:04.658Z",
+    "generatedBy": "auto",
+    "source": "blitz-batch-csv",
+    "salesRep": "",
+    "demoVersion": "2.0.0",
+    "outreachStatus": "pending",
+    "publishedAt": "2026-07-24T18:24:04.658Z"
+  },
+  "publishedAt": "2026-07-24T18:24:04.658Z"
+}

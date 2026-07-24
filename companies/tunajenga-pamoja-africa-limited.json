@@ -1,0 +1,206 @@
+{
+  "configVersion": "1.0.0",
+  "generatedAt": "2026-07-24T18:24:04.677Z",
+  "updatedAt": "2026-07-24T18:24:04.678Z",
+  "checksum": "f247aff7",
+  "status": "published",
+  "locale": "en-TZ",
+  "lockedFields": [
+    "about.director"
+  ],
+  "meta": {
+    "seoTitle": "Tunajenga Pamoja Africa Limited | Professional Business Services — Tanzania",
+    "seoDescription": "We are a professional Tanzanian business committed to delivering quality services with integrity, reliability, and a focus on client satisfaction.",
+    "ogImage": "assets/images/og-cover.jpg",
+    "defaultOgImage": "",
+    "canonicalUrl": "https://demo.thisuncle.co.tz/tunajenga-pamoja-africa-limited",
+    "favicon": ""
+  },
+  "brand": {
+    "name": "Tunajenga Pamoja Africa Limited",
+    "tagline": "Quality Service, Every Time.",
+    "subTagline": "Professional Business Services",
+    "logo": "",
+    "industry": "general",
+    "accent": "#C9431B",
+    "accentAlt": "#E05C2A",
+    "bgDark": "#080808",
+    "textLight": "#EDE8DE"
+  },
+  "hero": {
+    "headline": "Professional Services",
+    "headlineEm": "You Can Trust.",
+    "subheadline": "We are a professional Tanzanian business committed to delivering quality services with integrity, reliability, and a focus on client satisfaction.",
+    "bgImage": "assets/images/hero.jpg",
+    "bgVideo": "",
+    "ctaPrimary": {
+      "label": "Get in Touch",
+      "type": "whatsapp"
+    },
+    "ctaSecondary": {
+      "label": "Our Services",
+      "href": "#services"
+    },
+    "badges": [
+      {
+        "value": "5+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "50+",
+        "label": "Projects"
+      },
+      {
+        "value": "TRA",
+        "label": "Registered"
+      }
+    ]
+  },
+  "about": {
+    "heading": "A Business Built\non Trust",
+    "body": [
+      "We are a professional Tanzanian business with experience delivering quality services to clients across the country.",
+      "Our team is committed to reliability, transparency, and doing excellent work — every time."
+    ],
+    "image": "assets/images/about.jpg",
+    "director": null
+  },
+  "services": {
+    "visible": true,
+    "items": [
+      {
+        "icon": "ri-service-line",
+        "title": "Professional Services",
+        "body": "A range of professional services tailored to meet the needs of businesses and individuals."
+      },
+      {
+        "icon": "ri-customer-service-line",
+        "title": "Client Support",
+        "body": "Responsive, attentive support to ensure every client interaction is a positive experience."
+      },
+      {
+        "icon": "ri-file-list-2-line",
+        "title": "Consulting & Advisory",
+        "body": "Expert guidance to help clients make informed decisions and achieve their objectives."
+      },
+      {
+        "icon": "ri-team-line",
+        "title": "Project Delivery",
+        "body": "End-to-end project management and execution from planning through to successful delivery."
+      },
+      {
+        "icon": "ri-tools-line",
+        "title": "Technical Services",
+        "body": "Technical expertise and hands-on support for operational and infrastructure challenges."
+      },
+      {
+        "icon": "ri-handshake-line",
+        "title": "Partnerships & Alliances",
+        "body": "We build and maintain strategic partnerships to expand capacity and deliver better value."
+      }
+    ]
+  },
+  "projects": {
+    "visible": false,
+    "items": []
+  },
+  "stats": {
+    "visible": true,
+    "items": [
+      {
+        "value": 5,
+        "suffix": "+",
+        "label": "Years in Business"
+      },
+      {
+        "value": 50,
+        "suffix": "+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": 30,
+        "suffix": "+",
+        "label": "Clients Served"
+      },
+      {
+        "value": 10,
+        "suffix": "+",
+        "label": "Team Members"
+      }
+    ]
+  },
+  "whyUs": {
+    "visible": true,
+    "items": [
+      {
+        "icon": "ri-shield-check-line",
+        "title": "Registered Business",
+        "body": "Fully registered and compliant with all applicable Tanzanian business regulations."
+      },
+      {
+        "icon": "ri-user-star-line",
+        "title": "Experienced Team",
+        "body": "Our team brings relevant expertise and a genuine commitment to quality service delivery."
+      },
+      {
+        "icon": "ri-calendar-check-line",
+        "title": "Reliable Delivery",
+        "body": "We deliver on our commitments — on time and to the standard agreed with the client."
+      },
+      {
+        "icon": "ri-money-dollar-circle-line",
+        "title": "Fair Pricing",
+        "body": "Competitive and transparent pricing with no hidden costs."
+      },
+      {
+        "icon": "ri-customer-service-line",
+        "title": "Responsive Support",
+        "body": "We respond promptly and keep clients informed throughout every engagement."
+      },
+      {
+        "icon": "ri-handshake-line",
+        "title": "Client-First Approach",
+        "body": "Everything we do is guided by what is best for our clients and their objectives."
+      }
+    ]
+  },
+  "gallery": {
+    "visible": false,
+    "items": []
+  },
+  "testimonials": {
+    "visible": false,
+    "items": []
+  },
+  "contact": {
+    "phone": "+255 766462317",
+    "whatsapp": "255766462317",
+    "email": "info@tunajengapamojaafrica.com",
+    "address": "",
+    "mapEmbed": ""
+  },
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "linkedin": "",
+    "twitter": "",
+    "youtube": ""
+  },
+  "cta": {
+    "heading": "Ready to Work Together?",
+    "subheading": "Contact us today to discuss how we can help your business.",
+    "buttonLabel": "Get in Touch"
+  },
+  "internal": {
+    "leadId": "blitz-78",
+    "createdAt": "2026-07-24T18:24:04.677Z",
+    "updatedAt": "2026-07-24T18:24:04.678Z",
+    "generatedBy": "auto",
+    "source": "blitz-batch-csv",
+    "salesRep": "",
+    "demoVersion": "2.0.0",
+    "outreachStatus": "pending",
+    "publishedAt": "2026-07-24T18:24:04.678Z"
+  },
+  "publishedAt": "2026-07-24T18:24:04.678Z"
+}

@@ -1,0 +1,206 @@
+{
+  "configVersion": "1.0.0",
+  "generatedAt": "2026-07-24T18:24:04.643Z",
+  "updatedAt": "2026-07-24T18:24:04.643Z",
+  "checksum": "e791148f",
+  "status": "published",
+  "locale": "en-TZ",
+  "lockedFields": [
+    "about.director"
+  ],
+  "meta": {
+    "seoTitle": "Salum Motor Transport Co. Limited | Freight · Customs Clearance · Supply — Tanzania",
+    "seoDescription": "We move goods, clear customs, and supply institutions — on time, every time, anywhere in Tanzania and the East African region.",
+    "ogImage": "assets/images/og-cover.jpg",
+    "defaultOgImage": "",
+    "canonicalUrl": "https://demo.thisuncle.co.tz/salum-motor-transport-co-limited",
+    "favicon": ""
+  },
+  "brand": {
+    "name": "Salum Motor Transport Co. Limited",
+    "tagline": "Moving Tanzania Forward.",
+    "subTagline": "Freight · Customs Clearance · Supply",
+    "logo": "",
+    "industry": "logistics",
+    "accent": "#1B5E8C",
+    "accentAlt": "#2074A8",
+    "bgDark": "#060C14",
+    "textLight": "#E8F0F8"
+  },
+  "hero": {
+    "headline": "Tanzania's Trusted",
+    "headlineEm": "Logistics Partner.",
+    "subheadline": "We move goods, clear customs, and supply institutions — on time, every time, anywhere in Tanzania and the East African region.",
+    "bgImage": "assets/images/hero.jpg",
+    "bgVideo": "",
+    "ctaPrimary": {
+      "label": "Get a Free Quote",
+      "type": "whatsapp"
+    },
+    "ctaSecondary": {
+      "label": "Our Services",
+      "href": "#services"
+    },
+    "badges": [
+      {
+        "value": "7+",
+        "label": "Years Operating"
+      },
+      {
+        "value": "2000+",
+        "label": "Consignments Delivered"
+      },
+      {
+        "value": "TRA",
+        "label": "Licensed Agent"
+      }
+    ]
+  },
+  "about": {
+    "heading": "Your End-to-End\nLogistics Solution",
+    "body": [
+      "We are a Tanzanian logistics and supply company with experience moving goods across Tanzania and the East African region.",
+      "From sea freight and customs clearance to last-mile delivery and government supply, we offer complete supply chain solutions for businesses, NGOs, and public institutions."
+    ],
+    "image": "assets/images/about.jpg",
+    "director": null
+  },
+  "services": {
+    "visible": true,
+    "items": [
+      {
+        "icon": "ri-ship-2-line",
+        "title": "Sea Freight",
+        "body": "Full and shared container shipments from major global ports to Dar es Salaam, Tanga, and Mtwara."
+      },
+      {
+        "icon": "ri-truck-line",
+        "title": "Road Freight & Haulage",
+        "body": "Reliable trucking for bulk goods, construction materials, and general cargo across Tanzania."
+      },
+      {
+        "icon": "ri-file-text-line",
+        "title": "Customs Clearance",
+        "body": "Fast, compliant TRA customs clearance at all major Tanzanian ports and border crossings."
+      },
+      {
+        "icon": "ri-store-2-line",
+        "title": "Government & NGO Supply",
+        "body": "Supply of office equipment, furniture, consumables, and general goods to institutions and projects."
+      },
+      {
+        "icon": "ri-archive-line",
+        "title": "Warehousing & Storage",
+        "body": "Secure warehousing in Dar es Salaam with inventory tracking and goods management."
+      },
+      {
+        "icon": "ri-route-line",
+        "title": "Last-Mile Distribution",
+        "body": "Nationwide distribution reaching all regions with dedicated vehicles and local agents."
+      }
+    ]
+  },
+  "projects": {
+    "visible": false,
+    "items": []
+  },
+  "stats": {
+    "visible": true,
+    "items": [
+      {
+        "value": 7,
+        "suffix": "+",
+        "label": "Years in Business"
+      },
+      {
+        "value": 2000,
+        "suffix": "+",
+        "label": "Consignments Delivered"
+      },
+      {
+        "value": 26,
+        "suffix": "",
+        "label": "Regions Covered"
+      },
+      {
+        "value": 97,
+        "suffix": "%",
+        "label": "On-Time Delivery Rate"
+      }
+    ]
+  },
+  "whyUs": {
+    "visible": true,
+    "items": [
+      {
+        "icon": "ri-shield-check-line",
+        "title": "Licensed & Compliant",
+        "body": "Fully licensed clearing and forwarding agent with all required government registrations."
+      },
+      {
+        "icon": "ri-timer-line",
+        "title": "Fast Clearance",
+        "body": "Most customs clearances processed within 24–48 hours of vessel arrival."
+      },
+      {
+        "icon": "ri-global-line",
+        "title": "Regional Network",
+        "body": "Partnerships with freight agents across East Africa for seamless regional shipping."
+      },
+      {
+        "icon": "ri-team-line",
+        "title": "Dedicated Account Team",
+        "body": "Each client gets a dedicated account officer who manages all shipments end-to-end."
+      },
+      {
+        "icon": "ri-lock-line",
+        "title": "Cargo Insurance",
+        "body": "All consignments covered with comprehensive marine and inland transit insurance."
+      },
+      {
+        "icon": "ri-customer-service-line",
+        "title": "24/7 Support",
+        "body": "Our operations team is available around the clock for urgent clearance and delivery."
+      }
+    ]
+  },
+  "gallery": {
+    "visible": false,
+    "items": []
+  },
+  "testimonials": {
+    "visible": false,
+    "items": []
+  },
+  "contact": {
+    "phone": "+255 262692219",
+    "whatsapp": "255262692219",
+    "email": "",
+    "address": "",
+    "mapEmbed": ""
+  },
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "linkedin": "",
+    "twitter": "",
+    "youtube": ""
+  },
+  "cta": {
+    "heading": "Need a Logistics Partner You Can Trust?",
+    "subheading": "WhatsApp us for a free freight or supply quote within 24 hours.",
+    "buttonLabel": "Get a Free Quote"
+  },
+  "internal": {
+    "leadId": "blitz-30",
+    "createdAt": "2026-07-24T18:24:04.643Z",
+    "updatedAt": "2026-07-24T18:24:04.643Z",
+    "generatedBy": "auto",
+    "source": "blitz-batch-csv",
+    "salesRep": "",
+    "demoVersion": "2.0.0",
+    "outreachStatus": "pending",
+    "publishedAt": "2026-07-24T18:24:04.643Z"
+  },
+  "publishedAt": "2026-07-24T18:24:04.643Z"
+}
